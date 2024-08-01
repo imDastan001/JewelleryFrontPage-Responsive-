@@ -1,0 +1,335 @@
+body {
+    background-color: lavender;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 80px;
+    padding: 0px 40px;
+
+}
+
+p {
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    color: grey;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+}
+
+.poster {
+    border-radius: 15px;
+    padding-top: 20px;
+    background-color: aliceblue;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+
+
+}
+
+.poster:hover {
+    transform: scale(1.1);
+}
+
+.posterimg {
+    border-radius: 5px;
+    height: 14rem;
+    width: 14rem;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 70px 0px;
+    margin-bottom: 10px;
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+
+}
+
+.secimg {
+    max-width: 48rem;
+    border-radius: 15px;
+    background-attachment: fixed;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.para {
+
+    max-width: 50%;
+}
+
+
+
+
+
+@media screen and (max-width:1480px) and (min-width:1350px) {
+
+
+    .primary {
+        margin: 20px 10px;
+
+    }
+
+}
+
+@media screen and (max-width:1350px) and (min-width:1150px) {
+    .poster {
+        margin-bottom: 1.5rem;
+        width: 250px;
+        padding-top: 20px;
+    }
+
+    .posterimg {
+
+        height: 12rem;
+        width: 12rem;
+
+
+    }
+
+    .primary {
+        margin: 20px 10px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:1150px) and (min-width:940px) {
+    .poster {
+        width: 200px;
+    }
+
+    .posterimg {
+        border-radius: 5px;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .primary {
+        margin: 20px 5px;
+
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:875px) and (min-width:710px) {
+
+    .primary {
+        margin: 20px 0px;
+
+    }
+
+    .secimg {
+
+        max-width: 34rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .para {
+        max-width: 84%;
+    }
+
+}
+
+@media screen and (max-width:710px)  {
+
+    .poster {
+        width: 250px;
+    }
+
+    .posterimg {
+        border-radius: 5px;
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .primary {
+        margin: 20px 0px;
+
+    }
+
+    .secimg {
+
+        max-width: 30rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .para {
+        max-width: 84%;
+    }
+
+
+
+}
+
+@media screen and (max-width:610px) and (min-width:510px) {
+
+    .poster {
+        width: 200px;
+    }
+
+    .posterimg {
+        border-radius: 5px;
+        height: 11rem;
+        width: 11rem;
+    }
+
+    .primary {
+        margin: 20px 0px;
+
+    }
+
+    .secimg {
+
+        max-width: 25rem;
+    }
+
+
+}
+
+@media screen and (max-width:510px) {
+
+    .poster {
+        width: 150px;
+    }
+
+    .posterimg {
+        border-radius: 5px;
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .primary {
+        margin: 20px 0px;
+
+    }
+
+    .secimg {
+
+        max-width: 18rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .para {
+        max-width: 84%;
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .poster {
+        width: 130px;
+    }
+
+    .posterimg {
+        border-radius: 5px;
+        height: 6rem;
+        width: 6rem;
+    }
+
+
+
+    h3 {
+        font-size: 0.6rem;
+    }
+
+
+}
+
+@media screen and (max-width:360px) {
+    .row {
+        justify-content: center;
+    }
+
+    .poster {
+        width: 200px;
+    }
+
+    .posterimg {
+        border-radius: 5px;
+        height: 11rem;
+        width: 11rem;
+    }
+
+
+
+    .secimg {
+
+        max-width: 13rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+
+}
